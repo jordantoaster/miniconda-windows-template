@@ -25,6 +25,8 @@ This repository acts as initial boiler plate for setting up a Miniconda driven P
 
 You will now have an activated virtual environment in your terminal. To deactivate your environment use the command ``conda deactivate``
 
+To remove the environment entirely use ```conda env remove --name dev-env```
+
 ## Appendix
 
 ### FAQ
