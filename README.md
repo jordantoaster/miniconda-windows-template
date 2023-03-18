@@ -53,9 +53,9 @@ jupyterlab=3.6.1 -> ipython -> pathlib2
 
 The Conda depedency resolver, in its default configuration did not demonstrate the agility on Windows to solve the conflicts. 
 
-I also slimlined the environment to essentials for ease of debugging, we can add more dependencies incrementally as needed.
+I also slimlined the environment to essentials for ease of debugging, we can add more dependencies incrementally as needed.To do use, install the package without a dependency and use ``conda list`` to get the package version that satistifies Conda before adding it to ``env.yml``.
 
-#### Original Repository Intent
+### Original Repository Intent
 
 The original goal of this template repository was to encapsulate the entire setup into a single script. From the installation of Miniconda into the Windows operating system to the eventual activation of a development-ready virtual environment. This ambition was causing problems, particularly during the installation of Miniconda. Attempts at scripting an approach to perform this task are shown below.
 
