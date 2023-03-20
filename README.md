@@ -4,6 +4,10 @@ This repository acts as initial boiler plate for setting up a Miniconda driven P
 
 ## Setup
 
+### Prerequisites
+
+- A bash terminal, Git Bash or other.
+
 ### Install Miniconda
 
 1. Download a Python 10 variant of Miniconda from this [link](https://repo.anaconda.com/miniconda/Miniconda3-py310_23.1.0-1-Windows-x86_64.exe).
