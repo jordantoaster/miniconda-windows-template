@@ -53,7 +53,7 @@ jupyterlab=3.6.1 -> ipython -> pathlib2
 
 The Conda depedency resolver, in its default configuration did not demonstrate the agility on Windows to solve the conflicts. 
 
-I also slimlined the environment to essentials for ease of debugging, we can add more dependencies incrementally as needed.To do use, install the package without a dependency and use ``conda list`` to get the package version that satistifies Conda before adding it to ``env.yml``.
+I also slimlined the environment to essentials for ease of debugging, we can add more dependencies incrementally as needed. To do so, install the package without a version and use ``conda list`` to get the package version that satistifies Conda before adding it to ``env.yml``.
 
 ### Original Repository Intent
 
